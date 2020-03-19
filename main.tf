@@ -1,4 +1,4 @@
-# refer to a resource group MyRG1
+# refer to a resource group MyRG1, test
 data "azurerm_resource_group" "test" {
   name = "myrg1"
 }
