@@ -5,8 +5,8 @@ data "azurerm_resource_group" "test" {
 
 #refer to a subnet
 data "azurerm_subnet" "test" {
-  name                 = "default"
-  virtual_network_name = "Spoke2Network"
+  name                 = "internal2"
+  virtual_network_name = "vnet-myrg5-network"
   resource_group_name  = "${data.azurerm_resource_group.test.name}"
 }
 

@@ -7,5 +7,5 @@ variable "pass" {
 }
 
 variable "servername" {
-  description = "Enter name of the first server being built in this RG."
+  description = "Enter the Server name."
 }
