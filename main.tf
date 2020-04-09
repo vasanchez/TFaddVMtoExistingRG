@@ -65,6 +65,6 @@ resource "azurerm_virtual_machine" "test" {
     managed_disk_type = "Standard_LRS"
   }
     os_profile_windows_config {
-    provision_vm_agent = false
+    provision_vm_agent = true
   }
 }
